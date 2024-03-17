@@ -119,7 +119,7 @@ function Project() {
       work1: "TailWind 스타일링",
       work2: "Section 구성",
       work3: "포트폴리오 제작",
-      link:["https://github.com/Luison1472/portfolio_TeamNaver","Demo"]
+      link:["https://github.com/Luison1472/portfolio_TeamNaver","#"]
     },
   ];
 const [flippedCardId, setFlippedCardId] = useState(null);
