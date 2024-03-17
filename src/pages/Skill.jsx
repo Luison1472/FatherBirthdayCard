@@ -3,31 +3,7 @@ import React, { useEffect, useRef } from 'react';
 const Skill = () => {
     const skillRef = useRef(null);
 
-    useEffect(() => {
-        const options = {
-            root: null,
-            rootMargin: '0px',
-            threshold: 0.5 // 화면에 50% 이상 노출될 때 변경
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, options);
-
-        if (skillRef.current) {
-            observer.observe(skillRef.current);
-        }
-
-        return () => {
-            if (skillRef.current) {
-                observer.unobserve(skillRef.current);
-            }
-        };
-    }, []);
+   
 
     return (
         <section id="skill_box" className="p-28 bg-white">
