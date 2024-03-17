@@ -12,20 +12,20 @@ function Project() {
                 <h2 className="text-5xl flex justify-center mb-5">Profile</h2>
                 <div className="flex justify-evenly items-center">
                     <div>
-                        <img src="/src/assets/img/my-profile.png" alt="프로필" className="float-left w-56 h-auto object-cover" />
+                        <img src="/img/my-profile.png" alt="프로필" className="float-left w-56 h-auto object-cover" />
                     </div>
                     <div className="profile-list text-gray-700 text-lg">
                         <ul className="profile-ul-box flex flex-col my-2 px-5 py-2 w-full">
-                            <li className="flex items-center gap-2"><img className="w-8" src="/src/assets/img/name.png" alt="이름 아이콘" />박민서</li>
-                            <li className="flex items-center gap-2"><img className="w-8" src="/src/assets/img/birthday.png" alt="생일 아이콘"/>1999.08.27</li>
-                            <li className="flex items-center gap-2"><img className="w-8" src="/src/assets/img/adress.png" alt="주소 아이콘"/>인천광역시 서구</li>
-                            <li className="flex items-center gap-2"><img className="w-8" src="/src/assets/img/email.png" alt="이메일 아이콘"/>melody9908@naver.com</li>
-                            <li className="flex items-center gap-2"><img className="w-8" src="/src/assets/img/school.png" alt="학교 아이콘"/>청운대학교&#40;전자공학과,전자공학부&#41; </li>
-                            <li className="flex items-center gap-2"><img className="w-8" src="/src/assets/img/education.png" alt="교육 아이콘"/>제로베이스 프론트엔드 취업 스쿨 졸업</li>
+                            <li className="flex items-center gap-2"><img className="w-8" src="/img/name.png" alt="이름 아이콘" />박민서</li>
+                            <li className="flex items-center gap-2"><img className="w-8" src="/img/birthday.png" alt="생일 아이콘"/>1999.08.27</li>
+                            <li className="flex items-center gap-2"><img className="w-8" src="/img/adress.png" alt="주소 아이콘"/>인천광역시 서구</li>
+                            <li className="flex items-center gap-2"><img className="w-8" src="/img/email.png" alt="이메일 아이콘"/>melody9908@naver.com</li>
+                            <li className="flex items-center gap-2"><img className="w-8" src="/img/school.png" alt="학교 아이콘"/>청운대학교&#40;전자공학과,전자공학부&#41; </li>
+                            <li className="flex items-center gap-2"><img className="w-8" src="/img/education.png" alt="교육 아이콘"/>제로베이스 프론트엔드 취업 스쿨 졸업</li>
                         </ul>
                         <ul className="profile-ul-box flex flex-col my-2 px-5 py-2 w-full">
-                            <a href="https://github.com/Luison1472"><li className="flex items-center gap-2"><img className="w-8" src="/src/assets/img/github.png" alt="깃허브 아이콘"/>Git</li></a>
-                            <a href="https://blog.naver.com/mingcoding"><li className="flex items-center gap-2"><img className="w-8" src="/src/assets/img/blogicon.png" alt="블로그 아이콘"/>Blog</li></a>
+                            <a href="https://github.com/Luison1472"><li className="flex items-center gap-2"><img className="w-8" src="/img/github.png" alt="깃허브 아이콘"/>Git</li></a>
+                            <a href="https://blog.naver.com/mingcoding"><li className="flex items-center gap-2"><img className="w-8" src="/img/blogicon.png" alt="블로그 아이콘"/>Blog</li></a>
                         </ul>
                     </div>
                 </div>
