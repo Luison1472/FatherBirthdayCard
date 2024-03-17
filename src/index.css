@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  max-width: 1900px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 1200px;
+}
