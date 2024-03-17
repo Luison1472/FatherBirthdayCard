@@ -25,7 +25,7 @@ function Project() {
                         </ul>
                         <ul className="profile-ul-box flex flex-col my-2 px-5 py-2 w-full">
                             <a href="https://github.com/Luison1472"><li className="flex items-center gap-2"><img className="w-8" src="/img/github.png" alt="깃허브 아이콘"/>Git</li></a>
-                            <a href="https://blog.naver.com/mingcoding"><li className="flex items-center gap-2"><img className="w-8" src="/img/blogicon.png" alt="블로그 아이콘"/>Blog</li></a>
+                            <a href="https://blog.naver.com/mingcoding"><li className="flex items-center gap-2"><img className="w-8" src="/img/blog.png" alt="블로그 아이콘"/>Blog</li></a>
                         </ul>
                     </div>
                 </div>
